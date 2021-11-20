@@ -1,0 +1,29 @@
+{
+    "name": "cpptraj",
+    "displayName": "cpptraj",
+    "description": "Unofficial cpptraj color extension",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "publisher": "kyusque",
+    "repository": {
+        "url": "github.com/kyusque/cpptraj-kyusque"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "cpptraj",
+            "aliases": ["cpptraj", "cpptraj"],
+            "extensions": [".cpptrajin"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cpptraj",
+            "scopeName": "source.cpptraj",
+            "path": "./syntaxes/cpptraj.tmLanguage.json"
+        }]
+    }
+}

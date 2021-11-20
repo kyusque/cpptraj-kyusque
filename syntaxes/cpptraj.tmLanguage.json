@@ -1,0 +1,3642 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "cpptraj",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"comment": {
+			"name": "comment.line.cpptraj",
+			"match": "#.*"
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\b3dna\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bALL\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bNHdist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\babove\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bacceptormask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bacceptout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bactions\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baddbond\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\badpdata\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\badpout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\ballframes\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\balpha\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baltona\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bamd\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bamoeba_itmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bamoeba_nsearch\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bamoeba_tol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bamplitude\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\banalysis\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\banchor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\band\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bang\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bangle\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\banti\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bappend\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baround\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bas\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bassignout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\batomname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\batoms\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\batomxyz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\batype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baverage\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baverageonly\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bavgincrement\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bavgout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bavgskip\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bavout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baxis0\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\baxis1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbacktrack\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbackward\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbandwidth\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbaseref\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbeg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbelow\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbeta\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbetadetail\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfacbyres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfacdata\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfacdefault\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfacmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfacscale\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbfactor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbincenter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbinedge\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbins\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbnd\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbond\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbondsearch\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbose\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbox\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bboxref\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbptype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbridgebyatom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbridgeout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbs_fac\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbs_points\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbs_samples\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbuffer\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bby\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbyatom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbymask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbymol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbymol1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbymol2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbyres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bbyresidue\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcalcadp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcalcall\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcalcnohb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcat\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcenter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcenter1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcenter2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcentermask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcentral\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bchainid\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcharge\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcheck\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcheckallresidues\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bchival\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcircular\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bclosestout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcluster\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bclusterinfo\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bclustermapout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bclusterout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bclustervtime\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcmapdetail\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcols\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcombined\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bconect\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcontactpdb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcorner\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcorr\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcorrection\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcorrel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcorrout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcountout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcovar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcprefix\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrdframes\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrdidx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrdname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrdout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrdset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcremer\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcrossproduct\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcumulative\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcurveout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcuteelec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcutelec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcutevdw\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcutoff\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bcutvdw\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdatafile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdataset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdbl\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdeffout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdelta\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdeprot\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdgbulk\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdhbulk\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdiel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdiffout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdih\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdihcovar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdihedral\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdihedralfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdihedrals\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdihtype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdimfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdims\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdir\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdirect\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdirectsum\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdispl\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdistance\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdistances\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdistcovar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdme\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdoeij\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdonorhmask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdonormask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdoorder\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdorotation\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdotangle\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdotproduct\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdouble\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdplr\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdplrout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdrct\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdroppoints\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bds\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bds1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bds2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bds2matrix\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdsumtol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdt\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdumpq\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdy\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bdz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\be14\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\beigenval\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\belec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\belectron\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bemapout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bene\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\beout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bepsilon\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\berfcdx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\betype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bevecs\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bewcoeff\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bewcoefflj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bexcludeions\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bext\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfamiliar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfilterset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfirst\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfirstatom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfit_itmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfit_tol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfixed\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bflt\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfluct\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bform\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bforward\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfracplot\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfracplotout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bframe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bframefile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfree\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfreq\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfrom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bftype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bfuzz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgamma\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgauss\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgeneral\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgeom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgnu\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgreater\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgrid\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgridcntr\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgriddim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgridext\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgridsearch\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgridspacn\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgridwrap\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgroovecalc\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bgroupby\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bguessbp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bhbcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bhighprecision\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bibeg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bidea\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\biend\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\big\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bignorenv\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\binclude_ep\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bincludesolvent\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bincrement\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bindex\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bindividual\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\binfo\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\binmask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\binterval\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bintout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\binvert\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bired\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\biseed\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bitmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bjpeg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkde\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkdist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkeepext\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkeepfiles\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkeeppoints\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bketype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkinetic\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bkldiv\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bklout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blabel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blagmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blast\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blastframe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blegend\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blegendset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bless\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blifetime\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bljpme\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bljswidth\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\blower\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmadura\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmagnitude\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmake2d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmakexy\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaponly\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmapout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmask2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaskcenter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaskmol2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaskpdb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmass\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmat3x3\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmatricesout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxdist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxexp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxfactor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxit\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxlag\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmaxwidth\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmdfrc\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmdvel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmeshfactor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmeshmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmeshmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmeshsize\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmindist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bminpoints\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmlimits\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmobile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmode\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmodel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmodes\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmodify\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmulti\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bmwcovar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bna\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnamec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnameca\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnameh\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnamen\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnameo\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnamesg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnaout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnativeout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnb14\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnbrcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnc\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bncols\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bndim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnegative\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnewset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnexp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnfft\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnlayers\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnmesh\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnmols\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnmwiz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnmwizfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnmwizvecs\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnncontactpdb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnobondcheck\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnobondsearch\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnobox\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnochamber\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoconect\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnocoords\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnocovar\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoelec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoeout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnofit\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoforce\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoframespaces\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoheader\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoimage\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnointramol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnointrares\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnolabels\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnomod\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnonbond\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnone\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnooffset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoorigin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnopbc\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnopm3d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoreplicadim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnorm\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnormdensity\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnormframe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnormint\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnorotate\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnosearch\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnosort\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnosparse\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnosquare2d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnostdout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnotemperature\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnotime\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnovdw\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnovelocity\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnoxcol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnpoints\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnq\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnrep\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnskip\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnstlim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bntc\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bntwx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnumber\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnvecs\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnwout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bnx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boccbyres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boccdata\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boccdefault\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boccmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boccscale\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bof\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boff\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boffset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boldpsf\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bon\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bonly\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bonlycols\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\border\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\borigin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\borigincut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutab\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutba\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutformat\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutprefix\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bouttraj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bouttype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutxbins\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutxmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boutxmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boverlap\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boverlay\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boverlayparm\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boversets\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\boxygen\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bp2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpairlist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpara\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bparm\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bparmindex\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bparmname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bparmout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bparse\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpcmax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpcmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdbatom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdbcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdbres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdbter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpdbv3\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpeakcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpeakfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperframe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperresavg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperrescenter\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperresinvert\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperresmask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bperresout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpm3d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpme\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpoints\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpqr\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpresent\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprevious\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprintatomnum\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprintmode\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprinttrips\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bprobe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpsibins\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bptrajformat\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bptrajoutput\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bpurewater\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\br1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\br2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\br3\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\br4\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bradii\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bradscale\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brandom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brange\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brange360\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brawcurve\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bread1d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bread2d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bread3d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breadbox\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breduce\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bref\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brefdens\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breference\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brefindex\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brefrange\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breftraj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brelax\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremap\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremdtraj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremdtrajidx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremdtrajtemp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremdtrajvalues\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremlog\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremove\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bremovebonds\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brepidx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breportfile\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breptime\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breptimeslope\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breptimeslopeout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\breq\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brescutoff\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresmap\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresoffset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresrange\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresseries\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresseriesout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresults\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bresultsout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brk2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brk3\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brmatrix\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brmout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brmsfit\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brmsip\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brmsout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brows\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brseed\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brsumtol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brvecin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\brvecout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bs0\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsaveforces\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsavematrices\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsavenonnative\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsavevectors\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bscalepdbe\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bscalesimplex\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bscd\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bscientific\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsearchtype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bseed\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsegid\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsegmask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bseparate\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bseparateout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bseries\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bseriesout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsetname\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsg\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bshift\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bshort\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsilent\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsimple\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsingle\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsite_size\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bskinnb\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bskipE\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bskipS\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bskipbadframes\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bskipnative\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsmoothdensity\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolutemask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolv\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolventacceptor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolventdonor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolventmask\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsolvout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsparse\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsquare2d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsrmsd\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstart\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstate\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstateout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstatsout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstep\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bstop\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsum\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsumout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsy\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsybylatom\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsybylbond\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsybyltype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bsz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btaildist\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btailend\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btailstart\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btcorr\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btemp\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btemp0\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btemperature\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btempi\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btensor\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bteradvance\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bterbyres\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btf\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btgtrange\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bthermo\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btheta\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bti\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btime0\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btitle\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btitletype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btmode\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bto\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btol\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btorsion\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btotalout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btraj3d\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btrajargs\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btrajfmt\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btrajin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btrajnames\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btrajout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btransout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btriclinic\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btruncoct\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btstep\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\btype\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bucell\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bunsat\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bupdate\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bupper\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\buseall\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\busecol21\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\busedata\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\busefft\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\busemap\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\busevelocity\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\buuseries\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\buvseries\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bv14\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvalue\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvdw\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvec1\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvec2\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvecs\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvecsout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvector\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvectorcoord\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvelocity\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bveltraj\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvmapout\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvolume\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bvv\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bwidth\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bwindow\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bwritecontacts\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bwriteempty\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bx\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bx64\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxdim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxfmt\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxlabel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxoffset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxprec\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxstep\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxvals\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxy\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxydy\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxyz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bxz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\by\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bydim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bylabel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bymin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\byoffset\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\byz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bz\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzanglecut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzcut\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzdim\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzeromomentum\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzlabel\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzmin\\b"
+				},
+				{
+					"name": "keyword.cpptraj",
+					"match": "\\bzoffset\\b"
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bactiveref\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bcalc\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bclear\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bcreate\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bcreateset\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bdatafile\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bdatafilter\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bdataset\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bdebug\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bensextension\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bexit\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bflatten\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bgo\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bhelp\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\blist\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bnoexitonerror\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bnoprogress\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bparallelanalysis\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bprecision\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bprintdata\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bprnlev\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bquietblocks\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bquit\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\brandom\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\breaddata\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\breadensembledata\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\breadinput\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bremovedata\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\brng\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\brst\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\brun\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\brunanalysis\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bselect\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bselectds\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bsilenceactions\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bsortensembledata\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\busediskcache\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bwrite\\b"
+				},
+				{
+					"name": "support.function.general.cpptraj",
+					"match": "\\bwritedata\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bgnuplot\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bhead\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bless\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bls\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bpwd\\b"
+				},
+				{
+					"name": "support.function.system.cpptraj",
+					"match": "\\bxmgrace\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bcatcrd\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bcombinecrd\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bcrdaction\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bcrdout\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bemin\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bgraft\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bloadcrd\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bloadtraj\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bpermutedihedrals\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\brotatedihedral\\b"
+				},
+				{
+					"name": "support.function.coords.cpptraj",
+					"match": "\\bsplitcoords\\b"
+				},
+				{
+					"name": "support.function.trajectory.cpptraj",
+					"match": "\\bensemble\\b"
+				},
+				{
+					"name": "support.function.trajectory.cpptraj",
+					"match": "\\bensemblesize\\b"
+				},
+				{
+					"name": "support.function.trajectory.cpptraj",
+					"match": "\\breference\\b"
+				},
+				{
+					"name": "support.function.trajectory.cpptraj",
+					"match": "\\btrajin\\b"
+				},
+				{
+					"name": "support.function.trajectory.cpptraj",
+					"match": "\\btrajout\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bangleinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bangles\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\batominfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\batoms\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bbondinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bbonds\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bchange\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bcharge\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bcomparetop\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bdihedralinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bdihedrals\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bimproperinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bimpropers\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bmass\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bmolinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bparm\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bparmbox\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bparminfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bparmstrip\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bparmwrite\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintangles\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintatoms\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintbonds\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintdihedrals\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintimpropers\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bprintub\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bresinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bscaledihedralk\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bsolvent\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bubinfo\\b"
+				},
+				{
+					"name": "support.function.topology.cpptraj",
+					"match": "\\bupdateparameters\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\balign\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bangle\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bareapermol\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\batomiccorr\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\batomicfluct\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\batommap\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bautoimage\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\baverage\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bbounds\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bbox\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcenter\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcheck\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcheckchirality\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcheckoverlap\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcheckstructure\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bclosest\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bclosestwaters\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bclusterdihedral\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcontacts\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcreatecrd\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bcreatereservoir\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdensity\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdiffusion\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdihedral\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdihedralrms\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdihrms\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdipole\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdistance\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdrms\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdrmsd\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bdssp\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\benergy\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\besander\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bfilter\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bfixatomorder\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bfiximagedbonds\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bgist\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bgrid\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bhbond\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bimage\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bjcoupling\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\blessplit\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\blie\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\blipidorder\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\blipidscd\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmakestructure\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmask\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmatrix\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bminimage\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmolsurf\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmultidihedral\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bmultivector\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bnastruct\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bnativecontacts\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bouttraj\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bpairdist\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bpairwise\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bprincipal\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bprojection\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bpucker\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bradgyr\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bradial\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brandomizeions\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brdf\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bremap\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\breplicatecell\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brms\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brmsd\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brmsf\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brog\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brotate\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brunavg\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\brunningaverage\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bscale\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bsecstruct\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bsetvelocity\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bspam\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bstfcdiffusion\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bstrip\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bsurf\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bsymmrmsd\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\btemperature\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\btime\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\btrans\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\btranslate\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bunstrip\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bunwrap\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bvector\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bvelocityautocorr\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bvolmap\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bvolume\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bwatershell\\b"
+				},
+				{
+					"name": "support.function.action.cpptraj",
+					"match": "\\bxtalsymm\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\b2drms\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bautocorr\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bavg\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcalcstate\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcluster\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcorr\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcorrelationcoe\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcphstats\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcrank\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcrankshaft\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcrdfluct\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcrosscorr\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bcurvefit\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bdiagmatrix\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bdivergence\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bevalplateau\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bfft\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bhausdorff\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bhist\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bhistogram\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bintegrate\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bired\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bkde\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\blifetime\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\blowestcurve\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bmatrix\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bmeltcurve\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bmodes\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bmulticurve\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bmultihist\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bphipsi\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bregress\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bremlog\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\brms2d\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\brmsavgcorr\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\brotdif\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\brunningavg\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bslope\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bspline\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bstat\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bstatistics\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bti\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\btimecorr\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bvectormath\\b"
+				},
+				{
+					"name": "support.function.analysis.cpptraj",
+					"match": "\\bwavelet\\b"
+				},
+				{
+					"name": "support.function.control.cpptraj",
+					"match": "\\bfor\\b"
+				},
+				{
+					"name": "support.function.control.cpptraj",
+					"match": "\\bset\\b"
+				},
+				{
+					"name": "support.function.control.cpptraj",
+					"match": "\\bshow\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.cpptraj"
+}
